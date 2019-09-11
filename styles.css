@@ -1,17 +1,315 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+header {
+       padding: 30px;
+       font-size: 16px;
+       height: 150px;
+       
+       color: white;
+       text-align: center;
+       background-image:url("https://wallpaperaccess.com/full/187161.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+      } /*   
+      header {
+       padding: 30px;
+       font-size: 16px;
+       height: 150px;       
+       color: white;
+       text-align: center;
+       background-image:url("https://wallpaperplay.com/walls/full/d/0/d/70300.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+      } 
+      
+      */
+      nav {
+        display: inline-block;
+        padding: 10px 3px;
+        background-color: black; /* rgb(50 180 100);*/
+        width: 98.2%;
+        margin-bottom: 20px;
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
+      }
+      nav a {
+       color: white;
+        text-decoration: none;
+        padding: 12px 18px;
+        font-family: times;
+        font-weight: bold;
+        font-size: 16.7px;
+      }
+      nav a:hover {
+        background-color: black;
+        opacity: 0.8;
+      
+      }
+      .mydiv {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+        .mydiv1 {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+        .mydiv2 {
+        
+        margin-top: 5px;
+        padding: 10px;
+      }
+      footer {
+       margin-top: 5px;
+       padding: 20px; 
+       background-color: black; /*rgb(12 150 150);*/ 
+       font-size: 18px;
+       
+       font-family: Times;
+      }
+      footer a {
+        text-decoration: none;
+        color: white;
+      }
+      footer a:hover {
+        color: white;
+        opacity: 0.8;
+      }
+      h2 {
+       text-align: center;
+      }
+      h1 {
+       border-top: 5px solid white;
+       border-bottom: 5px solid white;
+       width: 350px;
+       text-align: center;
+       background-color: gold;
+       padding: 5px;
+       margin-left: 28px;
+      }
+      @media screen and (min-width: 800px) {
+  header h1{
+    margin-left: 250px;
+    color: blue;
+        
+  }
+  header {
+       padding: 30px;
+       font-size: 16px;
+       height: 150px;       
+       color: white;
+       text-align: center;
+       background-image:url("https://wallpaperaccess.com/full/187170.jpg");
+       width: 93.3%;
+       background-repeat: no-repeat;
+       background-size: cover;
+      } 
+       /* nav {
+        display: inline-block;
+        padding: 10px 3px;
+        background-color: black; // rgb(50 180 100);
+        width: 98.2%;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      } */
+      
+      
+      .youtube {
+  border: 10px solid green;
+  padding: 5px;
   width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  
+  
+}
+  img {
+    width: 60%;
+    padding: 3px;
+  }
+  p, img {
+    width: 57%;
+    border: 4px solid gold;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: lemon;
+  }
+  img {
+   background-color: rgb(100 210 255);
+   
+  }
+  /* thired image */
+  img#def#video {
+    width: 500px;
+  }
+  h2 {
+   text-align: left;
+   font-family: lemon;
+   background-color: black;
+   color: white;
+   width: 320px;
+   padding: 10px;
+   text-align: center;
+   margin-left: 620px;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+   .youtube {
+  padding:10px;
+  border: 2px solid black;
+  background-color: #ff3300;
+  width: 500px;
+  margin-left: 10px;
+  
+  } 
+  .links {
+  text-decoration: none;
+  color: gold;
+  
+}
+.links:hover {
+  color: gold;
+  opacity: .8;
+  
+}
+#fixImg {
+       width: 150px;
+       height: 145px;
+       border: 4px solid black;       
+       border-radius: 50%;
+       padding: 0;
+       background-color: transparent;        
+  margin-top: -50px;
+  margin-right: 10px;
+  
+}
+#header_container {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 30px;
+ 
+  
+}
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+        display: inline-block;
+        padding: 10px 3px;
+        background-color: rgb(255 250 250); /*rgb(50 180 100);*/        
+        width: 98.2%;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 0;
+        width: 250px%;
+        
+      }
+   
+      nav a {
+        color: black;
+      }
+      nav a:hover {
+        color: white;
+      }
+      header {
+        background-color: black;
+      }
+   #buttons .button {
+        background-color: black;
+        color: white;
+    }
+    .button_txt:hover {
+      color: black;
+    }
+
+.youtube {
+  padding:10px;
+  border: 10px solid black;
+  background-color: red;
+  width: 400px;
+  margin-left: 15px;
+}
+
+.links {
+  text-decoration: none;
+  color: darkblue;
+  
+}
+.links:hover {
+  color: darkblue;
+  opacity: .8;
+}  
+#fixImg {
+       width: 125px;
+       height: 125px;
+       border: 1px solid transparent;
+       border-radius: 50%;
+       padding: 0;
+       background-color: transparent;
+        margin-left: 0px;
+        margin-top: -10px;
+  
+}
+#header_container {
+  display: flex;
+  margin-left: 0px;
+ 
+  
+}
+
+.button {
+  
+  left: 150px;
+  background-color: transparent;
+}
+
+}
+
+
+
+.button:hover {
+  background-color: black;
+  
+  font-family: lemon;
+  font-size: 16px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;  
+  padding: 14px 38px;
+  opacity: 0.8;
+}
+.button {
+  
+  padding: 14px 38px;
+  font-family: lemon;
+  font-size: 16px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid black;  
+  opacity: 0.9;
+}
+.button:hover {
+   background-color: black;
+   opacity: 0.8;
+   
+} 
+.button_txt:hover {
+  color: white;
+  opacity: 0.8;
+  
+  
+}
+.container img {
+  width: 500px;
+}
+.youtube {
+  
+  
+  
 }
